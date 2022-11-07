@@ -11,7 +11,7 @@ using System;
 
 namespace JsonConverters
 {
-    public class TolerantObjectConverter<T> : JsonConverter where T: new()
+    public class TolerantObjectConverter<T> : JsonConverter where T : new()
     {
         public override bool CanConvert(Type objectType)
         {
