@@ -1,7 +1,7 @@
 # JsonConverters
 A collection of JsonConverters found on Stack Overflow that I found helpful / indispensible.  These work with Newtonsoft's Json.NET.
 
-## ArrayToObjectConverter
+## ArrayToObjectConverter\<T\>
 Takes a Json array and converts it into an object, as long as the element order is consistent.  Given the following Json:
 
 ```
